@@ -1,0 +1,11 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^([login]+)$	login.php [L]
+
+RewriteRule ^([helpdesk|monitoring|admin]+)$   index.php?c=$1 [L]
+RewriteRule ^([helpdesk|monitoring|admin]+)/$   index.php?c=$1 [L]
+RewriteRule ^([helpdesk|monitoring|admin]+)/([a-zA-Z0-9]+)$   index.php?c=$1&f=$2 [L]
+RewriteRule ^([helpdesk|monitoring|admin]+)/([a-zA-Z0-9]+)/$   index.php?c=$1&f=$2 [L]
+
+RewriteRule ^([monitoring]+)/([demands|list|detail]+)/([0-9]+)$   index.php?c=$1&f=$2&page=$3 [L]

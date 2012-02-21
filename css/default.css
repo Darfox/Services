@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	/*font: 12px/18px Arial, Tahoma, Verdana, sans-serif;*/
+	width: 100%;
+	background-color: #666;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+#wrapper {
+	border: 1px solid red;
+	width: 1020px;
+	margin: 0 auto;
+	border: 3px solid #FFF;
+	background-color: #FFF;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 100px;
+	background: #333;
+}
+
+#hLogo {
+	height: 97px;
+	background-image: url('/images/Logo_evea.jpg');
+	background-repeat: no-repeat;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 10px;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	text-align: center;
+	font-style:italic;
+	color: #3C3C3C3C;
+	font-size: 0.7em;
+}
+
+
+.clear {
+	clear: both;
+}
+
+.login_form input{
+	height: 20px;
+	width: 150px;
+	margin: 5px 0;
+}
+.login_form {
+	text-align: center;
+}
+.login_form .submit {
+	height: 30px;
+	width: 100px;
+}
+
